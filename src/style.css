@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  color: #1c87c9;
+  text-shadow: 2px 2px #f2f2f2;
+}
+
+form {
+  margin-top: 30px;
+  display: inline-block;
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+#searchBtn {
+  background-color: #1c87c9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 2px 2px #f2f2f2;
+}
+
+#searchBtn:hover {
+  background-color: #0b5394;
+}
+
+#result div {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 2px 2px #f2f2f2;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 2px 2px #ccc;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#error p {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffcccb;
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 2px 2px rgb(181, 181, 181);
+}
